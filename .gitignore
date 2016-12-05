@@ -19,6 +19,3 @@ hs_err_pid*
 .gitignore
 .idea/workspace.xml
 out/
-src/Assignments/Assignment1/Scenario1/Output/
-src/Assignments/Assignment2/
-src/Assignments/Assignment3/
