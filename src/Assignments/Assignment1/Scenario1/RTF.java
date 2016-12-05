@@ -3,9 +3,14 @@ package Assignments.Assignment1.Scenario1;
 /**
  * Created by jason on 11/29/2016.
  */
-public class RTF extends File{
+class RTF extends FileClass {
 
-    public RTF() {
+    RTF() {
         setExtensionName("rtf");
+    }
+
+    @Override
+    public String toString() {
+        return "RTF";
     }
 }

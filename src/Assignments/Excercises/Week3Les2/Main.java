@@ -3,7 +3,7 @@ package Assignments.Excercises.Week3Les2;
 /**
  * Created by jason on 12/1/2016.
  */
-public class Main {
+class Main {
     public static void main(String[] args) {
         IDocent pDocent = new PDocent();
         IDocent hfDocent = new HFDocent();

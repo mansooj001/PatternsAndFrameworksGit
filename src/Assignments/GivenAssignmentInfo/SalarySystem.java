@@ -3,21 +3,21 @@ package Assignments.GivenAssignmentInfo;
 import java.util.ArrayList;
 
 
-public class SalarySystem {
+class SalarySystem {
 	
-	private ArrayList empArray = new ArrayList();
+	private final ArrayList empArray = new ArrayList();
 	
-	public void addColleague(Employee c) {
+	private void addColleague(Employee c) {
 		empArray.add(c);
 	}
 	
-	public Employee search(String s) {
+	private Employee search(String s) {
 		for (int i = 0; i < empArray.size(); i++)
 			if (((Employee)empArray.get(i)).getName().equals(s)) return (Employee)empArray.get(i);
 		return new Employee("no employee has been found",-1);
 	}
 	
-	public void raiseSalary(Employee e) {
+	private void raiseSalary(Employee e) {
 		// if emp is jr, then he gets 5% raise + 100
 		// when emp is mr, he gets 6% + 100
 		// when emp is sr, he gets 7% 
@@ -40,7 +40,7 @@ public class SalarySystem {
 		}
 	}
 	
-	public SalarySystem() {
+	private SalarySystem() {
 		Employee j = new Employee("Jaap",0);
 		Employee m = new Employee("Fred",1);
 		Employee s = new Employee("Hans",2);
@@ -52,7 +52,7 @@ public class SalarySystem {
 		addColleague(s);
 	}
 	
-	public void printAll() {
+	private void printAll() {
 		for (Object e : empArray) {
 			Employee e1 = (Employee)e;
 			System.out.print(e.toString() + "\n");

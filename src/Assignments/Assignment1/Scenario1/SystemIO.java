@@ -8,15 +8,17 @@ import java.nio.file.Paths;
 /**
  * Created by jason on 11/29/2016.
  */
-public class SystemIO {
-    static BufferedWriter bufferedWriter = null;
-    static FileWriter fileWriter = null;
+class SystemIO {
+    private static BufferedWriter bufferedWriter = null;
+    private static final FileWriter fileWriter = null;
 
-    public void writeFile(File file) {
+    public void writeFile(FileClass fileClass) {
         try {
 
-            String content = "This is the content to write into file\n";
-            bufferedWriter = new BufferedWriter(new FileWriter(String.valueOf(Paths.get(file.getFileName() + "." + file.getExtensionName()))));
+            String content = "This is the content to write into fileClass\n";
+            //C:\Users\Jason\IdeaProjects\PatternsAndFrameworksGit\src\Assignments\Assignment1\Scenario1\Output
+            //C:\Users\Jason\IdeaProjects\PatternsAndFrameworksGit\erihgerihgber.html
+            bufferedWriter = new BufferedWriter(new FileWriter(String.valueOf(Paths.get("src\\Assignments\\Assignment1\\Scenario1\\Output\\" + fileClass.getFileName() + "." + fileClass.getExtensionName()))));
             bufferedWriter.write(content);
 
             System.out.println("Done");

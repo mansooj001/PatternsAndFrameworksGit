@@ -1,8 +1,8 @@
 package Assignments.GivenAssignmentInfo;
 
-public class Employee {
+class Employee {
 	private int k = 0; // kind of employee, 0 means junior, 1 is medior, 2 is senior
-	private String name;
+	private final String name;
 	private double sal;
 	
 	public Employee() {

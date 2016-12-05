@@ -4,14 +4,14 @@ package Assignments.Assignment1.Scenario1;
 /**
  * Created by jason on 11/29/2016.
  */
-public class HTML extends File{
+class HTML extends FileClass {
 
-    public HTML() {
+    HTML() {
         setExtensionName("html");
     }
 
     @Override
     public String toString(){
-        return this;
+        return "HTML";
     }
 }

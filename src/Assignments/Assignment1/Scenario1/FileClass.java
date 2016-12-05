@@ -3,14 +3,14 @@ package Assignments.Assignment1.Scenario1;
 /**
  * Created by jason on 11/29/2016.
  */
-public abstract class File {
+abstract class FileClass {
     private String fileName;
     private String extensionName;
 
-    public File() {
+    FileClass() {
     }
 
-    public String getFileName() {
+    String getFileName() {
         return fileName;
     }
 
@@ -22,7 +22,7 @@ public abstract class File {
         return extensionName;
     }
 
-    public void setExtensionName(String extensionName) {
+    void setExtensionName(String extensionName) {
         this.extensionName = extensionName;
     }
 

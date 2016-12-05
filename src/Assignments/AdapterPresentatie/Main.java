@@ -11,9 +11,9 @@ import java.util.ArrayList;
 /**
  * Created by jason on 12/1/2016.
  */
-public class Main {
+class Main {
     public static void main(String[] args) {
-        ArrayList<IUnit> units = new ArrayList<IUnit>();
+        ArrayList<IUnit> units = new ArrayList<>();
         units.add(new Marine());
         units.add(new Zealot());
         units.add(new Zergling());

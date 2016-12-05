@@ -1,19 +1,17 @@
 package Assignments.Assignment1.Scenario1;
 
-import com.sun.org.apache.xpath.internal.SourceTree;
-
 import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
  * Created by jason on 11/29/2016.
  */
-public class Main {
+class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         SystemIO systemIO = new SystemIO();
 
-        ArrayList<File> extensions = new ArrayList<>();
+        ArrayList<FileClass> extensions = new ArrayList<>();
         extensions.add(new HTML());
         extensions.add(new PlainText());
         extensions.add(new RTF());
@@ -25,12 +23,13 @@ public class Main {
 
         System.out.println("Welke bestandsextensie wilt u gebruiken?\n" +
                 "U kunt kiezen uit de volgende extensies:");
-        for (File f: extensions) {
-            System.out.println(f.toString());
+        for (int i = 1;i <= extensions.size(); i++) {
+            System.out.println(i + ": " + extensions.get(i-1).toString());
         }
-        String bestandsType = scan.nextLine();
+        int bestandsType = scan.nextInt();
 
-
-
+        FileClass file = extensions.get(bestandsType - 1);
+        file.setFileName(bestandsnaam);
+        systemIO.writeFile(file);
     }
 }
