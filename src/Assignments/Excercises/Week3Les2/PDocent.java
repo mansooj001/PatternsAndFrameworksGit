@@ -5,12 +5,12 @@ package Assignments.Excercises.Week3Les2;
  */
 public class PDocent implements IDocent {
     @Override
-    public String ontmoet(IStudent student) {
-        return this + student.ontmoet();
+    public String accept(IStudent student) {
+        return student.visit(this);
     }
 
     @Override
     public String toString() {
-        return "PDocent: ";
+        return "PDocent ";
     }
 }

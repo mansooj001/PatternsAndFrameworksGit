@@ -11,12 +11,12 @@ class Main {
         IStudent sieStudent = new SIE();
         IStudent tiStudent = new TI();
 
-        System.out.println(pDocent.ontmoet(sneStudent));
-        System.out.println(pDocent.ontmoet(sieStudent));
-        System.out.println(pDocent.ontmoet(tiStudent));
+        System.out.println(pDocent.accept(sneStudent));
+        System.out.println(pDocent.accept(sieStudent));
+        System.out.println(pDocent.accept(tiStudent));
 
-        System.out.println(hfDocent.ontmoet(sneStudent));
-        System.out.println(hfDocent.ontmoet(sieStudent));
-        System.out.println(hfDocent.ontmoet(tiStudent));
+        System.out.println(hfDocent.accept(sneStudent));
+        System.out.println(hfDocent.accept(sieStudent));
+        System.out.println(hfDocent.accept(tiStudent));
     }
 }

@@ -6,8 +6,8 @@ package Assignments.Excercises.Week3Les2;
 public class HFDocent implements IDocent {
 
     @Override
-    public String ontmoet(IStudent student) {
-        return this + "ontmoet " + student;
+    public String accept(IStudent student) {
+        return this + student.visit(this);
     }
 
     @Override

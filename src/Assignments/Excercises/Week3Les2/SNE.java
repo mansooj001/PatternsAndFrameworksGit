@@ -6,7 +6,7 @@ package Assignments.Excercises.Week3Les2;
 public class SNE implements IStudent {
     @Override
     public String ontmoet() {
-        return "ontmoet " + this;
+        return "accept " + this;
     }
 
     @Override

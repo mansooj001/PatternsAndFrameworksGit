@@ -1,10 +1,8 @@
 package Assignments.AdapterPresentatie;
 
 import Assignments.AdapterPresentatie.Adapter.IUnit;
-import Assignments.AdapterPresentatie.Starcraft.SonicAdapter;
-import Assignments.AdapterPresentatie.Starcraft.Marine;
-import Assignments.AdapterPresentatie.Starcraft.Zealot;
-import Assignments.AdapterPresentatie.Starcraft.Zergling;
+import Assignments.AdapterPresentatie.Nintendo.Mario;
+import Assignments.AdapterPresentatie.Starcraft.*;
 
 import java.util.ArrayList;
 
@@ -17,6 +15,7 @@ class Main {
         units.add(new Marine());
         units.add(new Zealot());
         units.add(new Zergling());
+        units.add(new MarioAdapter());
         units.add(new SonicAdapter());
 
         units.forEach(IUnit::attack);

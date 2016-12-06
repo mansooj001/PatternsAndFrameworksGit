@@ -5,12 +5,17 @@ package Assignments.Excercises.Week3Les2;
  */
 public class SIE implements IStudent {
     @Override
-    public String ontmoet() {
-        return "ontmoet " + this;
+    public String visit(PDocent pDocent) {
+        return this + " visit pDocent";
     }
 
     @Override
     public String toString() {
         return "SIE student";
+    }
+
+    @Override
+    public String visit(HFDocent hfDocent) {
+        return this + "visit hoofddocent";
     }
 }
