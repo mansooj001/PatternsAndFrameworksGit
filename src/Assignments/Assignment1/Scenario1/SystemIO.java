@@ -34,9 +34,6 @@ class SystemIO {
                 if (bufferedWriter != null)
                     bufferedWriter.close();
 
-                if (fileWriter != null)
-                    fileWriter.close();
-
             } catch (IOException ex) {
 
                 ex.printStackTrace();
