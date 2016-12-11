@@ -7,3 +7,5 @@ Echter is het niet mogelijk een ander soort filetype toe te voegen die iets ande
 Tijdens deze opdracht ben ik uitgegaan van de Template pattern. Mijn implementatie van de template pattern ondersteunt heel erg de S, O, L en D van het SOLID principe. Het is mogelijk om de HTML class vrij simpel te verwijderen. Het enige wat daarvoor verder nodig is is in de Main het dynamische object van HTML ook te verwijderen, zodat deze niet in de lijst van FileClasses komt.
 
 Verder kun je zien in de Main dat mijn code het Liskov substitutie principe ondersteunt. Op basis van de keuze die de gebruiker maakt, worden verschillende filetypes (FileClasses) aangemaakt. Deze zijn interchangeable. Verder is het ook makkelijk om uit te breiden naar een nieuwe filetype (Open/Closed principe).
+
+Ook kun je zien dat er nagedacht is over het Single Responsibility principe. Voor het schrijven van bestanden heb ik namelijk een class aangemaakt die verantwoordelijk is voor I/O, deze heb ik dan ook SystemIO genoemd. Ook als je kijkt naar elke class, zul je merken dat de cohesion hoog is voor deze opdracht. Elke class heeft relevante methodes die de identiteit van de classe identificeert.

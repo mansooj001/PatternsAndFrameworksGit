@@ -1,0 +1,1 @@
+Deze opdracht schreeuwde de proxy pattern uit. Daarom heb ik de opdracht ook geimplementeerd met de proxy pattern. Ik heb de "applicatie ook aardig simpel gehouden. Ik heb me hierbij meer gefocust op het nut van de proxy pattern, dan op de relevante context."

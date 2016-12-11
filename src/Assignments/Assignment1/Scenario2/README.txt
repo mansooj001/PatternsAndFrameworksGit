@@ -1,1 +1,1 @@
-Bij deze scenario is gebruik gemaakt van de Adapter pattern. In
+Bij deze scenario is gebruik gemaakt van de Adapter pattern. Dit pattern leek mij het meest logisch. In de uitleg van scenario2

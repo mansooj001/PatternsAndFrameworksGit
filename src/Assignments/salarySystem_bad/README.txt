@@ -1,0 +1,3 @@
+Voor deze opdracht is gebruik gemaakt van de Strategy pattern.
+
+Het is hierbij handig om per employee soort een eigen implementatie van raiseSalary te hebben. Ook is er door het aanmaken van de junior, normal en senior- employees het gebruik van een switch-case niet meer nodig. Ook is het makkelijk om dit uit te breiden. Stel je wilt bijvoorbeeld een manager implementeren of de eigenaar van het bedrijf, dan is deze vrij makkelijk toe te voegen.
