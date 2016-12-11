@@ -7,7 +7,7 @@ import Assignments.AdapterPresentatie.Nintendo.Mario;
  * Created by jason on 12/6/2016.
  */
 public class MarioAdapter implements IUnit{
-    Mario mario = new Mario();
+    private Mario mario = new Mario();
 
     @Override
     public void attack() {

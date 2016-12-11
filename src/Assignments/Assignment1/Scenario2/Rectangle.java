@@ -7,7 +7,7 @@ class Rectangle implements IShape{
 
     @Override
     public void display(double x, double y, double w, double h){
-        System.out.println("bottom left coordinates: " + x + ',' + y +"\n" +
+        System.out.println("bottom left coordinates: " + x + ", " + y +"\n" +
                 "width: " + w + "\n" +
                 "height: " + h);
     }

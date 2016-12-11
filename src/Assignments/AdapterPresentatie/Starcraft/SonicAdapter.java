@@ -7,7 +7,7 @@ import Assignments.AdapterPresentatie.Nintendo.Sonic;
  * Created by jason on 12/6/2016.
  */
 public class SonicAdapter implements IUnit{
-Sonic sonic = new Sonic();
+private Sonic sonic = new Sonic();
 
     @Override
     public void attack() {

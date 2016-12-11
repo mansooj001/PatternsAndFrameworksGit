@@ -1,0 +1,1 @@
+Bij deze scenario is gebruik gemaakt van de Adapter pattern. In
