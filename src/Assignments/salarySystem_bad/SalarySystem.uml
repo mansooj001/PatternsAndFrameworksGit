@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Assignments.salarySystem_bad.IEmployee</OriginalElement>
+  <nodes>
+    <node x="257.0" y="145.0">Assignments.salarySystem_bad.SeniorEmployee</node>
+    <node x="427.5" y="593.0">Assignments.salarySystem_bad.Main</node>
+    <node x="0.0" y="145.0">Assignments.salarySystem_bad.JuniorEmployee</node>
+    <node x="514.0" y="145.0">Assignments.salarySystem_bad.NormalEmployee</node>
+    <node x="422.1428571428571" y="0.0">Assignments.salarySystem_bad.IEmployee</node>
+    <node x="339.0" y="380.0">Assignments.salarySystem_bad.SalarySystem</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Assignments.salarySystem_bad.SalarySystem" target="Assignments.salarySystem_bad.IEmployee">
+      <point x="123.75" y="-81.5" />
+      <point x="627.75" y="360.0" />
+      <point x="761.5" y="360.0" />
+      <point x="761.5" y="115.0" />
+      <point x="581.3928571428571" y="115.0" />
+      <point x="68.25" y="47.5" />
+    </edge>
+    <edge source="Assignments.salarySystem_bad.SalarySystem" target="Assignments.salarySystem_bad.SeniorEmployee">
+      <point x="-41.25" y="-81.5" />
+      <point x="462.75" y="350.0" />
+      <point x="375.5" y="350.0" />
+      <point x="0.0" y="92.5" />
+    </edge>
+    <edge source="Assignments.salarySystem_bad.JuniorEmployee" target="Assignments.salarySystem_bad.IEmployee">
+      <point x="0.0" y="-92.5" />
+      <point x="118.5" y="115.0" />
+      <point x="444.8928571428571" y="115.0" />
+      <point x="-68.25" y="47.5" />
+    </edge>
+    <edge source="Assignments.salarySystem_bad.SalarySystem" target="Assignments.salarySystem_bad.JuniorEmployee">
+      <point x="-123.75" y="-81.5" />
+      <point x="380.25" y="360.0" />
+      <point x="118.5" y="360.0" />
+      <point x="0.0" y="92.5" />
+    </edge>
+    <edge source="Assignments.salarySystem_bad.Main" target="Assignments.salarySystem_bad.SalarySystem">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="81.5" />
+    </edge>
+    <edge source="Assignments.salarySystem_bad.NormalEmployee" target="Assignments.salarySystem_bad.IEmployee">
+      <point x="0.0" y="-92.5" />
+      <point x="632.5" y="125.0" />
+      <point x="535.8928571428571" y="125.0" />
+      <point x="22.75" y="47.5" />
+    </edge>
+    <edge source="Assignments.salarySystem_bad.SalarySystem" target="Assignments.salarySystem_bad.NormalEmployee">
+      <point x="41.25" y="-81.5" />
+      <point x="545.25" y="350.0" />
+      <point x="632.5" y="350.0" />
+      <point x="0.0" y="92.5" />
+    </edge>
+    <edge source="Assignments.salarySystem_bad.SeniorEmployee" target="Assignments.salarySystem_bad.IEmployee">
+      <point x="0.0" y="-92.5" />
+      <point x="375.5" y="125.0" />
+      <point x="490.3928571428571" y="125.0" />
+      <point x="-22.75" y="47.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="375.5" y="317.0" />
+  <SelectedNodes>
+    <node>Assignments.salarySystem_bad.IEmployee</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

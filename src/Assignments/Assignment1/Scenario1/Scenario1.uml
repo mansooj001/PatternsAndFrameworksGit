@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Assignments.Assignment1.Scenario1.FileClass</OriginalElement>
+  <nodes>
+    <node x="426.0" y="301.0">Assignments.Assignment1.Scenario1.HTML</node>
+    <node x="196.5" y="0.0">Assignments.Assignment1.Scenario1.FileClass</node>
+    <node x="275.0" y="420.0">Assignments.Assignment1.Scenario1.Main</node>
+    <node x="302.0" y="301.0">Assignments.Assignment1.Scenario1.RTF</node>
+    <node x="-33.0" y="421.0">Assignments.Assignment1.Scenario1.SystemIO</node>
+    <node x="157.0" y="301.0">Assignments.Assignment1.Scenario1.Word97</node>
+    <node x="563.0" y="301.0">Assignments.Assignment1.Scenario1.PlainText</node>
+    <node x="0.0" y="301.0">Assignments.Assignment1.Scenario1.WordXML</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Assignments.Assignment1.Scenario1.PlainText" target="Assignments.Assignment1.Scenario1.FileClass">
+      <point x="0.0" y="-37.0" />
+      <point x="629.0" y="271.0" />
+      <point x="480.0" y="271.0" />
+      <point x="126.0" y="125.5" />
+    </edge>
+    <edge source="Assignments.Assignment1.Scenario1.WordXML" target="Assignments.Assignment1.Scenario1.FileClass">
+      <point x="0.0" y="-37.0" />
+      <point x="68.5" y="271.0" />
+      <point x="228.0" y="271.0" />
+      <point x="-126.0" y="125.5" />
+    </edge>
+    <edge source="Assignments.Assignment1.Scenario1.Main" target="Assignments.Assignment1.Scenario1.HTML">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Assignments.Assignment1.Scenario1.Main" target="Assignments.Assignment1.Scenario1.RTF">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Assignments.Assignment1.Scenario1.Main" target="Assignments.Assignment1.Scenario1.SystemIO">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Assignments.Assignment1.Scenario1.RTF" target="Assignments.Assignment1.Scenario1.FileClass">
+      <point x="0.0" y="-37.0" />
+      <point x="0.0" y="125.5" />
+    </edge>
+    <edge source="Assignments.Assignment1.Scenario1.Main" target="Assignments.Assignment1.Scenario1.Word97">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Assignments.Assignment1.Scenario1.Main" target="Assignments.Assignment1.Scenario1.PlainText">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Assignments.Assignment1.Scenario1.Word97" target="Assignments.Assignment1.Scenario1.FileClass">
+      <point x="0.0" y="-37.0" />
+      <point x="219.5" y="281.0" />
+      <point x="291.0" y="281.0" />
+      <point x="-63.0" y="125.5" />
+    </edge>
+    <edge source="Assignments.Assignment1.Scenario1.HTML" target="Assignments.Assignment1.Scenario1.FileClass">
+      <point x="0.0" y="-37.0" />
+      <point x="484.5" y="281.0" />
+      <point x="417.0" y="281.0" />
+      <point x="63.0" y="125.5" />
+    </edge>
+    <edge source="Assignments.Assignment1.Scenario1.Main" target="Assignments.Assignment1.Scenario1.WordXML">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="347.5" y="247.0" />
+  <SelectedNodes>
+    <node>Assignments.Assignment1.Scenario1.SystemIO</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

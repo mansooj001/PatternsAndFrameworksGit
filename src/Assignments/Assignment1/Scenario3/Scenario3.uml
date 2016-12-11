@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Assignments.Assignment1.Scenario3.Main</OriginalElement>
+  <nodes>
+    <node x="0.0" y="265.0">Assignments.Assignment1.Scenario3.Main</node>
+    <node x="243.0" y="101.0">Assignments.Assignment1.Scenario3.RealImage</node>
+    <node x="-96.0" y="96.0">Assignments.Assignment1.Scenario3.ProxyImage</node>
+    <node x="164.0" y="0.0">Assignments.Assignment1.Scenario3.Image</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Assignments.Assignment1.Scenario3.RealImage" target="Assignments.Assignment1.Scenario3.Image">
+      <point x="0.0" y="-59.5" />
+      <point x="340.5" y="76.0" />
+      <point x="257.0" y="76.0" />
+      <point x="31.0" y="25.5" />
+    </edge>
+    <edge source="Assignments.Assignment1.Scenario3.Main" target="Assignments.Assignment1.Scenario3.ProxyImage">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Assignments.Assignment1.Scenario3.ProxyImage" target="Assignments.Assignment1.Scenario3.RealImage">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Assignments.Assignment1.Scenario3.ProxyImage" target="Assignments.Assignment1.Scenario3.Image">
+      <point x="0.0" y="-59.5" />
+      <point x="111.5" y="76.0" />
+      <point x="195.0" y="76.0" />
+      <point x="-31.0" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="171.0" y="158.0" />
+  <SelectedNodes>
+    <node>Assignments.Assignment1.Scenario3.ProxyImage</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

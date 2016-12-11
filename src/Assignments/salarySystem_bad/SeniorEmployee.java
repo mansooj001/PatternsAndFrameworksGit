@@ -4,7 +4,7 @@ package Assignments.salarySystem_bad;
  * Created by jason on 12/11/2016.
  */
 class SeniorEmployee implements IEmployee {
-    private String name;
+    private final String name;
     private double salary;
 
     SeniorEmployee(String name) {
@@ -29,6 +29,6 @@ class SeniorEmployee implements IEmployee {
 
     @Override
     public String toString() {
-        return "Senior employee " + name + " has salary " +this.salary;
+        return "Senior employee " + name + " has salary " + salary;
     }
 }

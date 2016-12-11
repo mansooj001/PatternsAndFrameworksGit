@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Assignments.Assignment1.Scenario2.ClientRectangle</OriginalElement>
+  <nodes>
+    <node x="223.5" y="225.0">Assignments.Assignment1.Scenario2.Main</node>
+    <node x="373.7" y="101.0">Assignments.Assignment1.Scenario2.ClientRectangleAdapter</node>
+    <node x="382.5" y="0.0">Assignments.Assignment1.Scenario2.ClientRectangle</node>
+    <node x="72.5" y="0.0">Assignments.Assignment1.Scenario2.IShape</node>
+    <node x="0.0" y="112.5">Assignments.Assignment1.Scenario2.Rectangle</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Assignments.Assignment1.Scenario2.Main" target="Assignments.Assignment1.Scenario2.Rectangle">
+      <point x="-38.25" y="-25.5" />
+      <point x="261.75" y="200.0" />
+      <point x="145.0" y="200.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="Assignments.Assignment1.Scenario2.Rectangle" target="Assignments.Assignment1.Scenario2.IShape">
+      <point x="0.0" y="-25.5" />
+      <point x="-72.5" y="25.5" />
+    </edge>
+    <edge source="Assignments.Assignment1.Scenario2.ClientRectangleAdapter" target="Assignments.Assignment1.Scenario2.ClientRectangle">
+      <point x="69.33333333333331" y="-37.0" />
+      <point x="547.0333333333333" y="76.0" />
+      <point x="600.0" y="76.0" />
+      <point x="72.5" y="25.5" />
+    </edge>
+    <edge source="Assignments.Assignment1.Scenario2.Main" target="Assignments.Assignment1.Scenario2.ClientRectangleAdapter">
+      <point x="38.25" y="-25.5" />
+      <point x="338.25" y="200.0" />
+      <point x="477.7" y="200.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="Assignments.Assignment1.Scenario2.ClientRectangleAdapter" target="Assignments.Assignment1.Scenario2.IShape">
+      <point x="-69.33333333333331" y="-37.0" />
+      <point x="408.3666666666667" y="76.0" />
+      <point x="290.0" y="76.0" />
+      <point x="72.5" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="336.5" y="138.0" />
+  <SelectedNodes>
+    <node>Assignments.Assignment1.Scenario2.ClientRectangle</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

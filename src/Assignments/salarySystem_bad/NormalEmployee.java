@@ -13,6 +13,7 @@ class NormalEmployee implements IEmployee {
         this.salary = salary;
     }
 
+    @Override
     public void raiseSalary() {
         setSalary(salary * 1.06 + 100);
         System.out.println("Log message: Normal employee " + name + " has new salary: " + this.salary);
@@ -25,7 +26,7 @@ class NormalEmployee implements IEmployee {
 
     @Override
     public String toString() {
-        return "Normal employee " + name + " has salary " + this.salary;
+        return "Normal employee " + name + " has salary " + salary;
     }
 
 

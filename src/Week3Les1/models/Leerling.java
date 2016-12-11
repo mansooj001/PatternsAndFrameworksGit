@@ -1,7 +1,9 @@
 package Week3Les1.models;
 
-/**
- * Created by jason on 11/29/2016.
- */
-class Leerling {
-}
+// --Commented out by Inspection START (12/11/2016 18:07):
+// --Commented out by Inspection (12/11/2016 18:07):///**
+// * Created by jason on 11/29/2016.
+// */
+//class Leerling {
+//}
+// --Commented out by Inspection STOP (12/11/2016 18:07)
