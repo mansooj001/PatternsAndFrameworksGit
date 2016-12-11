@@ -27,8 +27,7 @@ class JuniorEmployee implements IEmployee {
 
     @Override
     public void raiseSalary() {
-        salary = salary * (105 + 10000);
-        salary = salary / 100;
-        System.out.println("Log message: employee " + name + " has new salary: " + salary);
+        setSalary(salary * 1.05 + 100);
+        System.out.println("Log message: employee " + name + " has new salary: " + this.salary);
     }
 }

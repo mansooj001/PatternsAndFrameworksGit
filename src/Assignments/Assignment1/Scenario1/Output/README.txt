@@ -1,0 +1,9 @@
+Dit is een door het programma zelf gegenereerd bestand! Met deze class indeling is het mogelijk om vrij simpel een nieuw bestandstype toe te voegen aan het huidige project. Om een nieuw bestandstype toe te voegen moeten twee dingen gebeuren. Er moet een nieuwe class aangemaakt worden en deze class moet in de Main toegevoegd worden aan "extensions" (De lijst van fileclasses).
+
+Voor de rest is er gebruik gemaakt van een abstract class ipv een interface. Ik heb gekozen voor een abstract class, omdat alle filetypes op zn minst een fileExtension, fileType en content gemeen hebben. (Template pattern)
+
+Echter is het niet mogelijk een ander soort filetype toe te voegen die iets anders accepteert dan varchar (tekst) als content. Dat is een nadeel aan het op mijn manier geimplementeerde project van Assignment1.Scenario1. Met een interface zou het wel mogelijk zijn om een nieuwe filetype te introduceren zonder dat deze gelimiteerd is aan het hebben van tekst als content.
+
+Tijdens deze opdracht ben ik uitgegaan van de Template pattern. Mijn implementatie van de template pattern ondersteunt heel erg de S, O, L en D van het SOLID principe. Het is mogelijk om de HTML class vrij simpel te verwijderen. Het enige wat daarvoor verder nodig is is in de Main het dynamische object van HTML ook te verwijderen, zodat deze niet in de lijst van FileClasses komt.
+
+Verder kun je zien in de Main dat mijn code het Liskov substitutie principe ondersteunt. Op basis van de keuze die de gebruiker maakt, worden verschillende filetypes (FileClasses) aangemaakt. Deze zijn interchangeable. Verder is het ook makkelijk om uit te breiden naar een nieuwe filetype (Open/Closed principe).

@@ -18,9 +18,8 @@ class SeniorEmployee implements IEmployee {
 
     @Override
     public void raiseSalary() {
-        salary = salary * 107;
-        salary = salary / 100;
-        System.out.println("Log message: employee " + name + " has new salary: " + salary);
+        setSalary(salary * 1.07);
+        System.out.println("Log message: employee " + name + " has new salary: " + this.salary);
     }
 
     @Override
@@ -30,6 +29,6 @@ class SeniorEmployee implements IEmployee {
 
     @Override
     public String toString() {
-        return "Senior employee " + name + " has salary " + salary;
+        return "Senior employee " + name + " has salary " +this.salary;
     }
 }

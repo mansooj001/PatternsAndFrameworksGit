@@ -23,10 +23,10 @@ class SalarySystem {
         employees.add(c);
     }
 
-    IEmployee search(String s) {
+    IEmployee search(String employeeName) {
         IEmployee employee = null;
         for (IEmployee e : employees) {
-            if (e.getName().equals(s)) ;
+            if (e.getName().equals(employeeName));
             employee = e;
         }
         return employee;
