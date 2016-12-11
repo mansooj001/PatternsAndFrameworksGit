@@ -6,6 +6,7 @@ package Assignments.Assignment1.Scenario1;
 abstract class FileClass {
     private String fileName;
     private String extensionName;
+    private String content;
 
     FileClass() {
     }
@@ -26,4 +27,11 @@ abstract class FileClass {
         this.extensionName = extensionName;
     }
 
+    public String getContent() {
+        return content;
+    }
+
+    public void setContent(String content) {
+        this.content = content;
+    }
 }

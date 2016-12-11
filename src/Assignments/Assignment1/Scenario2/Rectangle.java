@@ -7,11 +7,9 @@ class Rectangle implements IShape{
 
     @Override
     public void display(double x, double y, double w, double h){
-        double x1 = x;
-        double y1 = y;
-        double w1 = w;
-        double h1 = h;
-        System.out.println("x en y zitten linksonderaan");
+        System.out.println("bottom left coordinates: " + x + ',' + y +"\n" +
+                "width: " + w + "\n" +
+                "height: " + h);
     }
 
 }

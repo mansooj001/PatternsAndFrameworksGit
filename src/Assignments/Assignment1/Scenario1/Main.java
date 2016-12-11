@@ -21,6 +21,9 @@ class Main {
         System.out.println("Hoe wilt u het bestand noemen?");
         String bestandsnaam = scan.nextLine();
 
+        System.out.println("Wat wilt u in het bestand schrijven?");
+        String content = scan.nextLine();
+
         System.out.println("Welke bestandsextensie wilt u gebruiken?\n" +
                 "U kunt kiezen uit de volgende extensies:");
         for (int i = 1;i <= extensions.size(); i++) {
@@ -29,6 +32,7 @@ class Main {
         int bestandsType = scan.nextInt();
 
         FileClass file = extensions.get(bestandsType - 1);
+        file.setContent(content);
         file.setFileName(bestandsnaam);
         systemIO.writeFile(file);
     }

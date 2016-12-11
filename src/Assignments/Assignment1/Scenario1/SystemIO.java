@@ -10,16 +10,11 @@ import java.nio.file.Paths;
  */
 class SystemIO {
     private static BufferedWriter bufferedWriter = null;
-    private static final FileWriter fileWriter = null;
 
-    public void writeFile(FileClass fileClass) {
+    void writeFile(FileClass fileClass) {
         try {
-
-            String content = "This is the content to write into fileClass\n";
-            //C:\Users\Jason\IdeaProjects\PatternsAndFrameworksGit\src\Assignments\Assignment1\Scenario1\Output
-            //C:\Users\Jason\IdeaProjects\PatternsAndFrameworksGit\erihgerihgber.html
             bufferedWriter = new BufferedWriter(new FileWriter(String.valueOf(Paths.get("src\\Assignments\\Assignment1\\Scenario1\\Output\\" + fileClass.getFileName() + "." + fileClass.getExtensionName()))));
-            bufferedWriter.write(content);
+            bufferedWriter.write(fileClass.getContent());
 
             System.out.println("Done");
 
