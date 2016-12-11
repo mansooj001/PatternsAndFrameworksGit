@@ -1,1 +1,3 @@
-Bij deze scenario is gebruik gemaakt van de Adapter pattern. Dit pattern leek mij het meest logisch. In de uitleg van scenario2
+Bij deze scenario is gebruik gemaakt van de Adapter pattern. Dit pattern leek mij het meest logisch. In de uitleg van scenario2 wordt beschreven dat er een legacy applicatie is die op een specifieke manier shapes weergeeft. Het is dan de bedoeling dat een externe client dezelfde methode aan kan roepen, maar andere parameters meegeeft dan de originele applicatie.
+
+Dit klinkt als twee druppels water als de adapter pattern. Deze heb ik dan ook toegepast op deze opdracht.
