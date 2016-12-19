@@ -16,7 +16,7 @@ public class SalarySystemTest {
 
     @Test
     public void addColleague() throws Exception {
-        
+
     }
 
     @Test
