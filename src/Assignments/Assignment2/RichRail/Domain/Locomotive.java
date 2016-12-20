@@ -1,16 +1,17 @@
-package Assignments.Assignment2.RichRail;
+package Assignments.Assignment2.RichRail.Domain;
 
 import java.util.ArrayList;
 
 /**
  * Created by jason on 12/19/2016.
  */
-public class Train implements IVehicle {
+public class Locomotive {
     private ArrayList<Wagon> wagons;
-    IDrawing IDrawing;
+    private String name;
 
-    public Train(IDrawing IDrawing) {
-        this.IDrawing = IDrawing;
+
+    public Locomotive() {
+
     }
 
     public void add(Wagon wagon) {
@@ -42,10 +43,5 @@ public class Train implements IVehicle {
             }
         }
         return wagonsWithType;
-    }
-
-    @Override
-    public void draw() {
-        IDrawing.draw();
     }
 }

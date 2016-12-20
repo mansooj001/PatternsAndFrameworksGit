@@ -1,24 +1,35 @@
-package Assignments.Assignment2.RichRail;
+package Assignments.Assignment2.RichRail.Domain;
 
 /**
  * Created by jason on 12/19/2016.
  */
-public class Wagon implements IVehicle{
-    private WagonType wagonType;
-    private IDrawing IDrawing;
+public class Wagon {
+    private final WagonType wagonType;
+    private String ID;
+    private int seats;
 
-    public Wagon(WagonType wagonType, IDrawing IDrawing) {
+    public Wagon(WagonType wagonType) {
         this.wagonType = wagonType;
-        this.IDrawing = IDrawing;
     }
 
     WagonType getWagonType() {
         return wagonType;
     }
 
-    @Override
-    public void draw() {
-        IDrawing.draw();
+    public String getID() {
+        return ID;
+    }
+
+    public void setID(String ID) {
+        this.ID = ID;
+    }
+
+    public int getSeats() {
+        return seats;
+    }
+
+    public void setSeats(int seats) {
+        this.seats = seats;
     }
 
     class WagonType {
